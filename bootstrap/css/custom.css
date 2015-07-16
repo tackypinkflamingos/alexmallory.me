@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic);
+/*
+    turquoise: #203B4D
+    grey:     #9AA4AD
+*/
+
+html {
+    /* next two for sticky footer */
+    position: relative;
+    min-height: 100%;
+    min-width:300px;
+}
+
+body {
+    background:black;
+    color:#9AA4AD;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:18px;
+    /* Margin bottom by footer height */
+    margin-bottom: 65px;
+}
+
+div.white {
+    background:#f5f5f5;
+    color:#203B4D;
+    margin-bottom:20px;
+}
+
+h1, h2 {
+    font-family: 'EB Garamond', serif;
+}
+
+div.topbanner {
+    /*width:100%;
+    height:70px; */
+    /*background-image:url("/images/header1260x240.jpeg");
+    /*background-size:100%;*/
+    position:relative;
+    background-color:rgb(34, 34, 34);
+}
+img.topbanner {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1260px;
+    max-width:100%;
+}
+.bannername {
+    color:white;
+    font-family: 'EB Garamond', serif;
+    font-size:36px;
+    /*margin-top:-70px;*/
+    top:25%;
+    position:absolute;
+}
+@media (min-width: 500px) {
+    .bannername {
+        font-size:46px;
+    }
+}
+@media (min-width: 768px) {
+    .bannername {
+        font-size:72px;
+    }
+}
+
+div.headshot {
+    /*max-width:360px;*/
+    padding:0px 25px;
+    line-height:125%;
+}
+img.headshot {
+    width:100%;
+    max-width:360px;
+    margin-left:auto;
+    margin-right:auto;
+}
+@media (max-width:768px) {
+    div.headshot {
+        padding:0px 35px;
+    }
+    div.white {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+}
+
+/* center carousel */
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+/* Sticky footer styles */
+.stickyfooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top:15px;
+  /* Set the fixed height of the footer here */
+  height: 65px;
+  font-size:13px;
+}
+img.social {
+    width:32px;
+    height:32px;
+}
+
+
+span.plays {
+    font-size:20px;
+    font-style:italic;
+    font-weight:bold;
+}
+span.noemp {
+    /* no emphasis */
+    font-style:normal;
+    font-weight:normal;
+}
+img.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+.post {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:15px;
+    text-align:justify;
+}
+hr.post {
+    border-width:3px;
+    border-color:#203B4D;
+    border-color:#9AA4AD;
+}
+form.contact {
+    padding-bottom:20px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
